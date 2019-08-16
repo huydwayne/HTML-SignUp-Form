@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="form__container">
+                <div class="left-container">
+                    <div class="left-content">
+                        <i class="fa fa-rocket"></i>
+                        <h1>Welcome</h1>
+                        <p style="line-height: 25px; margin-top: 20px">You are 30 seconds away from earning your own
+                            money!</p>
+                    </div>
+
+                    <button class="btn" id="loginButton">
+                        Login
+                    </button>
+                </div>
+                <div class="right-container">
+                    <div class="right-content">
+                        <div id="formChoice">
+                            <button class="active" id="employee">
+                                Employee
+                            </button>
+                            <button id="hirer">
+                                Hirer
+                            </button>
+                        </div>
+                        <h2 style="text-align: center">Apply as an Employee</h2>
+                        <form action="" class="information">
+                            <input type="text" name="firstName" placeholder="First Name *">
+                            <input type="text" name="email" placeholder="Your Email *">
+                            <input type="text" name="lastName" placeholder="Last Name *">
+                            <input type="number" name="phone" placeholder="Your Phone *">
+                            <input type="password" name="password" placeholder="Password *">
+                            <select name="securityQuestion">
+                                <option value="">Please select your Security Question</option>
+                                <option value="input 2">input 2</option>
+                                <option value="input 3">input 3</option>
+                                <option value="input 4">input 4</option>
+                            </select>
+                            <input type="password" name="passwordValidate" placeholder="Confirm Password *">
+                            <input type="text" name="answer" placeholder="Enter Your Answer *">
+                            <label class="checkbox-container">
+                                Male
+                                <input type="checkbox" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="checkbox-container">
+                                Female
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <div class="buttonRegister">
+                                <button class="btn" id="register">Register</button>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
